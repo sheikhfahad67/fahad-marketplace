@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "fahad-marketplace",
+  "owner": {
+    "name": "Muhammad Fahad",
+    "url": "https://github.com/sheikhfahad67"
+  },
+  "description": "Claude Code plugins by Muhammad Fahad.",
+  "plugins": [
+    {
+      "name": "taskify",
+      "source": {
+        "source": "github",
+        "repo": "sheikhfahad67/taskify"
+      },
+      "description": "Plan multi-step work as numbered plan docs plus executable task specs with acceptance criteria and pasted evidence, then run those specs task by task: implement (general-purpose, sonnet), review (feature-dev:code-reviewer, opus), with a PROGRESS.md that lets a stopped or interrupted run resume.",
+      "version": "0.1.0",
+      "category": "workflow",
+      "tags": ["planning", "specs", "tasks", "implementation", "code-review", "resumable"],
+      "author": {
+        "name": "Muhammad Fahad"
+      },
+      "homepage": "https://github.com/sheikhfahad67/taskify"
+    }
+  ]
+}
